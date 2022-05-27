@@ -1,0 +1,466 @@
+Body {
+	background-image: url(imagenes/fondo.jpg);
+	background-size:cover;
+}
+
+#contenedor {
+	width: 960px;
+	height: 1260px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+header {
+	    width: 960px;
+        height: 100px;
+}
+
+#menu{
+	width:960px ;
+	height:110px ;
+     font-weight: bolder;
+}
+
+#menu1 li {display: inline;
+ }
+
+  #menu1 li a { 
+  	  margin-right: 10px;
+  	  width: 130px;
+       display:block;
+       color:#000000 ;
+       text-align: center;
+       line-height: 50PX;
+       float: left;
+       text-decoration: none;
+       border-top: black 2px solid;
+       border-bottom: black 2px solid;
+        font-family: 'Marcellus SC', serif;
+       
+       font-size: 25PX;
+        }
+  #menu1 li a:hover{ transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px 2px rgb(0, 0, 0);
+     font-weight: bold;}
+
+#marca {display:block;
+	width: 110px ;
+	height:100px ;
+	text-align: left;
+	float: left;
+
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform:  scale(1) skew(1deg) translate(9px);
+-webkit-transform:  scale(1) skew(1deg) translate(9px);
+-moz-transform: scale(1) skew(1deg) translate(9px);
+-o-transform:  scale(1) skew(1deg) translate(9px);
+-ms-transform: scale(1) skew(1deg) translate(9px);
+     }
+#marca :hover {transform: scale(1.160) skew(1deg) translate(0px);
+-webkit-transform: scale(1.160) skew(1deg) translate(0px);
+-moz-transform:  scale(1.160) skew(1deg) translate(0px);
+-o-transform: scale(1.160) skew(1deg) translate(0px);
+-ms-transform: scale(1.160) skew(1deg) translate(0px);}
+#menu2 li {display: inline;}
+
+ #menu2 li a { 
+  	margin-right: 10px;
+  	  width: 130px;
+  
+       
+       display:block;
+       color:#000000 ;
+       text-align: center;
+       line-height: 50PX;
+       float: right;
+       text-decoration: none;
+       border-top: black 2px solid;
+       border-bottom: black 2px solid;
+       font-family: 'Marcellus SC', serif;
+       font-size: 25PX;
+       }
+ #menu2 li a:hover{ transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px 2px rgb(0, 0, 0);
+     font-weight: bold;}
+ #video {height: 340PX;
+         border-bottom: black 2px solid;}
+  #video1 { display: block;
+           width: 960px ;
+           height: 315PX;
+           
+          }
+
+   #contenido {
+	width: 960px;
+	height: 150px;
+	font-weight: 600;
+	text-align: center;
+	font-family: 'Marcellus SC', serif;
+	font-size: 12pt;
+}
+
+
+
+#Titcasas { 
+  
+	font-family: 'Marcellus SC', serif;
+	text-align: center;
+
+}
+
+
+
+#contenedor1 { overflow: hidden;
+	width: 960px;
+	height: 320px; 
+     text-align: center;
+    
+}
+
+#contenedor1 Div{
+               width: 240px;
+               height: 250px;
+               float: left;
+               }
+#contenedor1 Div img { width: 210PX;
+                       height: 220PX;
+                       }
+ 
+ 
+#contenedor1 Div H2 { display: inline-block;               
+                      width: 125PX;
+                      font-family: 'Marcellus SC', serif;               
+                      color: #6f6f6f;
+                      margin: 10PX;}
+#Gryffindor h2:hover {color :#5b0201; text-shadow:1px 1px 10px #5b0201;}
+#Slytherin h2:hover{color: #0f430d;text-shadow:1px 1px 10px #0f430d} 
+#Ravenclaw h2:hover{color: #024d6a;text-shadow:1px 1px 10px #024d6a}
+#Hufflepuff h2:hover{color: #957e03;text-shadow:1px 1px 10px #957e03}
+
+
+
+#sombrero { border-TOP: #6f6f6f 2px solid;
+    display: inline-flex;
+    text-align: center;
+    width: 960px;
+    height: 250px;
+    margin: 12px;
+
+}
+
+#sombrero2 { 
+          height: 240PX;
+          width: 250PX;
+}
+#sombrero2 img { 
+     opacity: 2;
+transition: opacity 2s ease 0s;
+     width: 220PX;
+    height: 190PX;
+}
+#test {width: 700PX;
+       font-family: 'Marcellus SC', serif;
+    color: #6f6f6f;}
+#sombrero2 IMG:hover {opacity: 0.3;
+                      }
+
+
+footer { height: 75px; 
+         width: 960px;
+         margin: AUTO;
+         font-family: "Constantia", serif;
+         color: #737354;
+         text-align: center;}	
+footer img {
+height: 40px;
+width: 45px;
+text-align: center;}
+
+
+
+
+
+
+
+
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px) {
+
+
+   #contenedor {
+    
+    width: 590px;
+    height: auto;
+  
+    }
+    header {
+        width: 590px;
+        height: 100px;
+   }
+
+   #menu{
+    width:590px ;
+    height:110px ;
+
+    }
+
+
+
+      
+
+    #menu1 li a { 
+      margin-right: 5px;
+      margin-left: 5PX;
+      width: 70px;      
+       font-size: 15PX;
+        }
+
+   #marca { 
+    width: 55px ;
+    height:40px ;
+    }
+
+
+    #menu2 li a { 
+      margin-right: 5px;
+      margin-left: 5PX;
+      width: 70px;
+      font-size: 15PX;
+       }
+  #video{height: 250px;}
+   #video1 {  
+           width: 590px;
+           height: 200px;}
+
+   #contenido {
+    margin-top: 5px;
+    width: 590px;
+    height: 250px;
+    
+     }
+
+
+
+
+    #contenedor1 { 
+    width: 590px;
+    height: auto;    
+     }
+
+    #contenedor1 Div{ padding-left: 40PX;
+               width: 240px;
+               height: 250px;
+               
+               }
+    #contenedor1 Div img { width: 200PX;
+                       height: 205PX;
+
+                       }
+
+
+    #test {width: 590PX;
+       height: AUTO;}
+
+    #sombrero {display: inline-block;
+    width: 590px;
+    height: 250px;
+    margin: AUTO;
+
+     }
+
+     #sombrero2 { display: inline-block;
+          text-align: center;
+          height: 240PX;
+          width: 590PX;
+
+    }
+
+
+
+
+    footer { 
+         height: 75px; 
+         width: 590px;
+         }  
+} 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media handheld, screen and (max-width: 599px) {
+ 
+
+#contenedor {
+    width: 90%;
+    height: AUTO;
+
+}
+header {display: inline;
+        width: 90%;
+        height: 25em;
+}
+
+
+#marca { transform: translate(0em);
+      text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.25em;
+
+}
+#marca img  {
+            width: 20%;
+            height: auto;}
+
+#menu{
+    width:100% ;
+    height: auto;
+
+}
+
+  #menu1 {
+          Height: 13.6em;
+          display: inline-block;
+          width: 100%;
+          margin-bottom: 1em;
+          margin-top: 3em;}
+  #menu1 li a { 
+      float: center;
+      margin-right: AUTO;
+      margin-bottom:  1em;
+      width: 100%;
+      height: auto;
+        }
+
+
+
+ #menu2 {  
+         height: 13.6em;
+         display: inline-block;
+    width: 100%;
+      margin-bottom: 6em;}
+ #menu2 li a { 
+     float:CENTER;
+     margin-right: AUTO;
+     margin-bottom: 1em;
+      width: 100%;
+      height: auto;
+       }
+ 
+
+ 
+   #contenido {    color: #020202;
+    text-shadow: 0px -1px 5px #ffffff;
+    width: 100%;
+    height: auto;
+    font-size: 10pt;
+}
+
+#video {height: AUTO;
+    padding-bottom: 1EM;
+         border-bottom: #6f6f6f 0.125EM solid;}
+
+  #video1 { display: block;
+           width: 100% ;
+           height: auto;
+           
+          }
+
+
+#Titcasas {     color: #020202;
+    text-shadow: 0px -1px 5px #ffffff;
+
+   
+
+}
+
+
+
+#contenedor1 { overflow: hidden;
+    width: 100%;
+    height: auto; 
+
+}
+
+#contenedor1 Div{MARGIN-LEFT: auto;
+                 MARGIN-RIGHT: auto;
+               width: 100%;
+               height: auto;
+    
+               }
+#contenedor1 Div img { width: 50%;
+                       height:60%;
+                       }
+ 
+ 
+#contenedor1 Div H2 { display: block;               
+                      width: auto;
+                      margin: 0.625EM;}
+
+
+
+
+#sombrero { 
+    
+    display: block;
+    width: 100%;
+    height: AUTO;
+    margin: AUTO;
+
+}
+
+
+     #sombrero2 { display: inline;
+          height: 240PX;
+          width: 590PX;
+
+    }
+    #sombrero2 IMG {width: 50%;
+                    height: 50%;}
+
+#test {height: auto;
+    width: 100%;
+  
+    font-size: 0.625em;
+       }
+
+
+
+footer { height: AUTO; 
+         width: 100%;
+         margin: AUTO;
+         }  
+footer img {
+height: auto;
+width: 10%;}
+    
+}
+
+
+
+@media handheld , screen and (max-width: 270px) {
+
+#marca img {
+    width: 2.5em;
+}
+}

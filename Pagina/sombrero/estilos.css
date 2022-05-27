@@ -1,0 +1,205 @@
+Body {
+    background-image: url(../../imagenes/comedor.jpg);
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+#contenedor {
+    width: 960px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+header {
+        width: 960px;
+        height: 100px;
+}
+#menu {
+        width: 960px;
+        height: 100px;}
+
+
+
+#logo  {display: table;
+        margin: auto;
+    width: 90px ;
+    height:100px ;
+    text-align: center;
+    float: center;
+
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform:  scale(1) skew(1deg) ;
+-webkit-transform:  scale(1) skew(1deg) ;
+-moz-transform: scale(1) skew(1deg) ;
+-o-transform:  scale(1) skew(1deg) ;
+-ms-transform: scale(1) skew(1deg) ;
+          }
+
+#logo img:hover{transform: scale(1.160) skew(1deg) ;
+-webkit-transform: scale(1.160) skew(1deg) ;
+-moz-transform:  scale(1.160) skew(1deg) ;
+-o-transform: scale(1.160) skew(1deg) ;
+-ms-transform: scale(1.160) skew(1deg) ;
+
+}
+
+#contenido0 {text-align: center;
+              width: 960px;
+              height: AUTO; }
+
+#title {text-align:center ;
+        font-family: 'Julius Sans One', sans-serif;
+        } 
+
+
+footer { height: 75px; 
+         width: 960px;
+         margin: auto;
+         font-family: "Constantia", serif;
+         color: #737354;
+         text-align: center;}	
+footer img {
+height: 40px;
+width: 45px;
+text-align: center;}
+
+
+
+
+
+
+
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px) {
+
+
+  
+
+#contenedor {
+    width: 590px;
+    height: auto;
+  
+}
+header {
+        width: 590px;
+        height: 100px;
+}
+#menu {
+        width: 590px;
+        height: 100px;}
+
+
+
+#logo  {
+    width: 55px ;
+    height:40px ;
+   
+          }
+
+
+
+
+
+#contenido0 {
+              width: 590px;
+              height: auto; }
+
+
+
+
+footer { height: 75px; 
+         width: 590px;
+         margin: auto;
+         }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media handheld , screen and (max-width: 599px)
+{
+
+#contenedor {
+        width: 90%;
+        height: AUTO; 
+   }
+header {
+        width: 100%;
+        height: AUTO;
+}
+#menu {
+        width: 100%;
+        height: auto;}
+
+
+
+#logo { 
+    width: AUTO;
+    height: auto; }
+    #logo IMG  {
+    width: 100% ;
+    height:AUTO ;
+          }
+
+
+
+
+#contenido0 {
+              width: 100%;
+              height: AUTO: }
+
+#title { width: 100%;
+        height: auto;
+        } 
+
+#dinosaurio {
+        width: 100%;
+         height: auto;
+ }
+#dinosaurio img {
+        width: 100%;
+        height: auto;
+}
+
+
+ footer { height: auto; 
+         width: 100%;
+         margin: auto;
+        } 
+ footer img {
+    height:2.5EM;
+    width: 2.813EM;
+     text-align: center;}
+}
+
+
+@media handheld , screen and (max-width: 250px) {
+        #title{ 
+         height: AUTO; 
+           width: AUTO;
+          } 
+    #title h1 { 
+    MARGIN-RIGHT: auto;
+    MARGIN-LEFT: auto;
+    width: auto;
+    HEIGHT: auto;
+    writing-mode: vertical-lr;
+    }
+
+
+}

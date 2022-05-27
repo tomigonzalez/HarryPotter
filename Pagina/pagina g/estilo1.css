@@ -1,0 +1,276 @@
+body {
+	background-image: url("../../imagenes/fondo2.jpg" );
+	background-position: center;
+    background-size: cover;
+
+
+}
+#Contenedor {
+	width: 960px;
+	height: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+	}
+#menu {
+	    width: 960px;
+        height: 100px;}
+
+#logo  {display: table;
+        margin: auto;
+    width: 90px ;
+    height:100px ;
+    text-align: center;
+    float: center;
+
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform:  scale(1) skew(1deg) ;
+-webkit-transform:  scale(1) skew(1deg) ;
+-moz-transform: scale(1) skew(1deg) ;
+-o-transform:  scale(1) skew(1deg) ;
+-ms-transform: scale(1) skew(1deg) ;
+          }
+#logo img:hover{transform: scale(1.160) skew(1deg) ;
+-webkit-transform: scale(1.160) skew(1deg) ;
+-moz-transform:  scale(1.160) skew(1deg) ;
+-o-transform: scale(1.160) skew(1deg) ;
+-ms-transform: scale(1.160) skew(1deg) ;}
+
+ #title{ text-align: center;
+         height: 50px; 
+           width: 960PX;
+            color: #5b0201;
+ 	      font-family: "Constantia", serif;
+          }         
+}
+#cursiva {         
+           height: 30px; 
+           width: 960PX;
+           
+           }
+#cursiva P { 
+           text-align: center;
+           font-family: 'Ephesis', cursive;
+           font-size: 35PX;}
+
+#contenido1 { width: 960px;
+              height: 525px;
+              color: black;
+              text-align: left;}
+
+#contenido {
+             background-color: rgba(2, 0, 0, 0.6);
+             width: 800px;
+             height:425PX;
+             margin-right: auto;
+             margin-left: auto;             
+             }
+
+
+#godric { float: left; 
+	      width: 270px;
+          height: 250PX; }
+
+ #fundadores {padding: 30PX;
+              padding-bottom: 20PX;
+ 	         color: #847f71;
+             font-family: "Constantia", serif;
+ 	         font-size: 20PX;
+ 	         justify-content: center;
+ 	         font-weight: 500;
+
+              }
+
+
+ #informacion {margin: 20px;
+         font-family: "Constantia", serif;
+          font-size: 15PX;
+ 	       text-align: center; 
+ 	           justify-content: center;
+ 	      color:#847f71; }
+
+
+footer { height: 75px; 
+         width: 960px;
+         margin: auto;
+         font-family: "Constantia", serif;
+         color: #737354;
+         text-align: center;}   
+footer img {
+height: 40px;
+width: 45px;
+text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px) 
+{
+
+
+
+
+#Contenedor {
+        width: 590PX;
+        height: AUTO;
+
+               }
+#menu {
+            width: 590px;
+        height: 100px;}
+
+#logo  {
+    width: 55px ;
+    height:40px ;
+}
+
+ #title{ 
+         height: 50px; 
+           width: 590PX;
+         
+          }         
+
+#cursiva {         
+           height: auto; 
+           width: 590PX;
+           
+           }
+#cursiva P {
+           font-size: 30PX;}
+
+#contenido1 { width: 590px;
+              height: auto;
+              }
+
+#contenido {
+             width: 590px;
+             height:auto;
+                         
+             }
+
+
+#godric {  
+              width: 270px;
+          height: 250PX; }
+
+ #fundadores {padding: 10PX;
+              padding-bottom: 10PX;
+                
+                 font-size: 18PX;
+
+              }
+
+
+
+footer { height: 75px; 
+         width: 590px;
+         margin: auto;
+         }
+}
+
+
+
+
+
+
+@media handheld , screen and (max-width: 599px) {
+
+  #Contenedor {
+        width: 90%;
+        height: AUTO; 
+   }
+   #menu {
+        width: 100%;
+        height: auto;}
+   #logo { 
+    width: AUTO;
+    height: auto; }
+
+   #logo IMG  {
+    width: 100% ;
+    height:AUTO ;
+          }
+
+    
+    #title{ 
+         height: AUTO; 
+           width: AUTO;
+          } 
+  
+     
+
+     #cursiva {         
+           height: AUTO; 
+           width: 100%;
+           
+           }
+     #cursiva P {
+           font-size: 2.188em;}
+
+     #contenido1 { width: 100%;
+              height: auto;
+             }
+      #contenido {
+        
+             width: 100%;
+             height:AUTO;
+                    
+             }
+
+
+     #godric  {   
+                 width: 100%;
+                  height: auto; }
+
+
+     #fundadores {
+                 font-size: 1.25EM;
+                 justify-content: LEFT;
+
+              }
+
+
+      footer { height: auto; 
+         width: 100%;
+         margin: auto;
+        } 
+
+     footer img {
+    height:2.5EM;
+    width: 2.813EM;
+     text-align: center;}
+}
+
+
+
+
+
+
+@media handheld , screen and (max-width: 250px) {
+        #title{ 
+         height: AUTO; 
+           width: AUTO;
+          } 
+    #title h2 { 
+    MARGIN-RIGHT: auto;
+    MARGIN-LEFT: auto;
+    width: auto;
+    HEIGHT: auto;
+    writing-mode: vertical-lr;
+    }
+
+
+}
